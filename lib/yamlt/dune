@@ -1,0 +1,3 @@
+(library
+ (name yamlt)
+ (libraries yaml jsont_none))
