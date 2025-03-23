@@ -1,3 +1,0 @@
-(library
- (name jsont_none)
- (libraries jsont))

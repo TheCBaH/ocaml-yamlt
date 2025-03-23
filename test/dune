@@ -1,6 +1,6 @@
 (library
  (name foo)
- (libraries jsont_none yamlt yamlt_unix jsont.bytesrw base stdio)
+ (libraries jsont yamlt yamlt_unix jsont.bytesrw base stdio)
  (inline_tests)
  (preprocess
   (pps ppx_expect)))
