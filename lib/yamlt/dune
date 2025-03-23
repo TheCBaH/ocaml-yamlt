@@ -1,3 +1,4 @@
 (library
  (name yamlt)
- (libraries yaml jsont_none))
+ (wrapped false)
+ (libraries yaml jsont))
