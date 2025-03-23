@@ -1,4 +1,4 @@
 (library
- (name yamlt)
+ (public_name yamlt)
  (wrapped false)
  (libraries yaml jsont))
