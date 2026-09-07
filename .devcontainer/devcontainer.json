@@ -15,7 +15,7 @@
             "userGid": "1000",
             "upgradePackages": "false"
         },
-        "./features/ocaml": {
+        "ghcr.io/thecbah/ocaml-features/ocaml:1": {
             "packages": "bytesrw jsont ppx_expect utop yaml"
         }
     },
