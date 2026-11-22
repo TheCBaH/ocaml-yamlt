@@ -1,3 +1,7 @@
+module Private = struct
+  module Jsont_none = Jsont_none
+end
+
 let rec value_to_json (y : Yaml.value) =
   Jsont_none.(
     match y with

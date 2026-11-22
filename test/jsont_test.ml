@@ -34,7 +34,7 @@ let%expect_test "jsont_decode" =
   [%expect "{foo:bar, bar:foo}"]
 
 let%expect_test "jsont_none_decode" =
-  let j = Jsont_none.(object' ~map:Fun.id [ ("foo", string "bar"); ("bar", string "foo") ]) in
+  let j = Yamlt.Private.Jsont_none.(object' ~map:Fun.id [ ("foo", string "bar"); ("bar", string "foo") ]) in
   let m = Result.get_ok @@ Jsont.Json.decode M.jsont j in
   print M.pp m;
   [%expect "{foo:bar, bar:foo}"]
