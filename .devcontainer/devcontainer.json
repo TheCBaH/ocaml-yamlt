@@ -16,7 +16,8 @@
             "upgradePackages": "false"
         },
         "ghcr.io/thecbah/ocaml-features/ocaml:1": {
-            "packages": "bytesrw jsont ppx_expect utop yaml"
+            "packages": "bytesrw jsont ppx_expect utop yaml",
+            "ocaml-version-overrides": "dune#3.24.2@5.4.*"
         }
     },
     "customizations": {
